@@ -1,0 +1,9 @@
+ node{
+    
+    stage('maha stage1   mygitclone'){
+    git 'https://github.com/ravi2703/mahalogin.git'
+    }
+    
+    stage('maha stage2   maven goals'){
+    sh 'mvn install' 
+   
