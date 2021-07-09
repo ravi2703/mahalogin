@@ -5,5 +5,9 @@
     }
     
     stage('maha stage2   maven goals'){
-    sh 'mvn install' 
-   
+       sh 'mvn install' 
+    }
+    
+    stage('mvn package'){
+       sh 'mvn clean package'
+    }
