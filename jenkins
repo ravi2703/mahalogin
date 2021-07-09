@@ -8,6 +8,4 @@
        sh 'mvn install' 
     }
     
-    stage('mvn package'){
-       sh 'mvn clean package'
-    }
+   
